@@ -1,7 +1,7 @@
 @charset "UTF-8";
 body {
   /*height: 100%;*/
-  background-image: url(main.f7f88bc0.jpg);
+  background-image: url(/main.f7f88bc0.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
@@ -103,8 +103,13 @@ body::after {
   color: #39f !important;
 }
 
-.favorite_btn {
+.favorite_btn, .form__button {
   color: #fff !important;
+  background-color: #213040 !important;
+}
+
+.favorite_btn:hover, .form__button:hover {
+  background-color: #1e87f0 !important;
 }
 
 /*# sourceMappingURL=/style.ff1c4cab.css.map */

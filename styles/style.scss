@@ -91,6 +91,10 @@ body::after {
 .uk-pagination a:hover {
   color: #39f !important;
 }
-.favorite_btn {
+.favorite_btn, .form__button {
   color: #fff !important;
+  background-color: #213040 !important;
+}
+.favorite_btn:hover, .form__button:hover {
+  background-color: #1e87f0 !important;
 }
