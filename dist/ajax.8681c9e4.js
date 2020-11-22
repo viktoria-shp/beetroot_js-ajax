@@ -12257,7 +12257,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.urls = exports.BASE_URL = void 0;
-const BASE_URL = "http://www.omdbapi.com";
+const BASE_URL = "https://www.omdbapi.com";
 exports.BASE_URL = BASE_URL;
 const api_key = 'fa5a9961';
 const urls = {
@@ -12609,7 +12609,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60826" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61669" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

@@ -1,4 +1,4 @@
-const BASE_URL = "http://www.omdbapi.com";
+const BASE_URL = "https://www.omdbapi.com";
 const api_key = 'fa5a9961';
 
 const urls = {
