@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie</title>
+    <link rel="stylesheet" href="/style.ff1c4cab.css">
+    <link rel="icon" href="/favicon-16x16.02553ee3.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    .
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/css/uikit.min.css">
+  <script src="/style.ff1c4cab.js"></script></head>
+  <body>
+    <div class="uk-container container">
+      <form class="form uk-search uk-search-default" id="form">
+        <fieldset class="uk-fieldset">
+          <input class="form__input uk-search-input uk-form-width-large" type="search" placeholder="Input film name" name="title">
+          <div class="form__radio uk-margin uk-grid-small uk-child-width-auto uk-grid">
+            <label for="type_movie"><input id="type_movie" class="uk-radio" type="radio" name="type" value="movie" checked="">movie</label>
+            <label for="type_series"><input id="type_series" class="uk-radio" type="radio" name="type" value="series">series</label>
+            <label for="type_episode"><input id="type_episode" class="uk-radio" type="radio" name="type" value="episode">episode</label>
+          </div>
+          <button class="form__button uk-button" type="submit">search</button>
+          <a href="/favorite.html" class="form__button uk-button favorite_btn">my film</a>
+        </fieldset>
+      </form>
+      <div id="cards" class="uk-child-width-1-2@m uk-child-width-1-4@l uk-flex uk-flex-center" uk-grid="" uk-height-match="target: > div > .uk-card">
+      </div>
+      <ul class="uk-pagination"></ul>
+      <div id="cardMovie" class="uk-child-width-1-1" uk-grid=""></div>
+    </div>
+    <script src="/ajax.8681c9e4.js"></script>
+    <!--<script src="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/js/uikit-icons.min.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.2/js/uikit.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.2/js/components/pagination.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.2/js/components/notify.js"></script>
+    <!--<script src="./js//pagination.js"></script>-->
+  </body>
+</html>

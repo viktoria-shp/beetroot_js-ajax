@@ -1,0 +1,13 @@
+@contentType = application/json
+
+# @name Posts
+GET {{api}}/posts/
+Content-Type: {{contentType}}
+
+### 
+
+# @name Post
+GET {{api}}/posts/1/
+Content-Type: {{contentType}}
+
+### 

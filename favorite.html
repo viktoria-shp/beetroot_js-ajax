@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>favorite_movie</title>
+    <link rel="stylesheet" href="./styles/style.scss" />
+    <link rel="icon" href="./img/favicon-16x16.png">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"
+      type="text/css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    .
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/css/uikit.min.css"
+    />
+  </head>
+  <body class="favorite_page">
+    <div class="uk-container container">
+      <a  href="/index.html" class="form__button uk-button favorite_btn">search</a>
+      <h1 class="uk-heading-divider uk-text-primary uk-text-uppercase">favorite movies</h1>
+      <div id="cards" class="uk-child-width-1-2@l uk-flex uk-flex-center" uk-grid uk-height-match="target: > div > .uk-card">
+      </div>
+      <ul class="uk-pagination"></ul>
+      <div
+        id="cardMovie"
+        class="uk-child-width-1-1"
+        uk-grid
+      ></div>
+    </div>
+    <script src="./js//ajax.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.2/js/uikit.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.2/js/components/pagination.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.2/js/components/notify.js"></script>
+  </body>
+</html>

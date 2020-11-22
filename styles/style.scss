@@ -1,0 +1,96 @@
+body {
+  /*height: 100%;*/
+  background-image: url(../img/main.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+}
+body::after {
+  content: "";
+  background: black;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+.container {
+  display: flex !important;
+  align-items: center;
+  padding: 50px 0;
+  width: 100%;
+  flex-direction: column;
+}
+.form {
+  min-width: 500px;
+  z-index: 2;
+  text-align: center;
+  color: #fff !important;
+  margin-bottom: 40px !important;
+  &__input {
+    border: 2px solid #fff !important;    
+  }
+  .uk-search-input {
+    color: #fff;
+    padding: 10px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  &__radio {
+    display: flex;
+    justify-content: space-between;
+  }
+  .uk-radio {
+    margin-right: 5px;
+  }
+  .uk-radio:checked {
+    background-color: #213040;
+  }
+  .uk-radio:selection {
+    background-color:  #213040;
+  }
+  &__button {
+    color: #fff;
+    background-color: #213040;
+  }
+  &__button:hover {
+    background-color: #1e87f0;
+  }
+}
+.uk-card .uk-card-body .favorite_movie:after { 
+  content: "\2764";
+  color:#213040;
+  cursor: pointer;
+}
+.uk-card .uk-card-body .favorite_movie:hover:after, .uk-card .uk-card-body .favorite_movie.active_add:after { 
+  color: #39f;
+}
+#cardMovie {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+.uk-pagination li a {
+  color: #fff !important;
+  font-size: 20px;
+  font-weight: bold;
+}
+.uk-pagination li span {
+  color: #fff !important;
+  font-size: 20px;
+  font-weight: bold;
+}
+.uk-pagination>.uk-active>* {
+  color: #1c61ac !important;
+}
+.uk-pagination a:hover {
+  color: #39f !important;
+}
+.favorite_btn {
+  color: #fff !important;
+}
